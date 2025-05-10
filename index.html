@@ -25,5 +25,13 @@
   <h2 class="text"><span class="happy">🎂 Happy Birthday 🎂</span><br><span class="name">Er. Satyawan bhaiya</span></h2>
   <canvas id="confetti"></canvas>
   <script src="main.js"></script>
+  <script>
+  if (window.innerWidth <= 768) {
+    // Mobile device detected
+    document.body.innerHTML = "<h2>Yeh website sirf desktop ke liye hai. Kripya desktop device ka upyog karein.</h2>";
+    // Optional: aap redirect bhi kar sakte hain kisi aur page par
+    // window.location.href = "mobile-not-supported.html";
+  }
+  </script>
 </body>
 </html>
